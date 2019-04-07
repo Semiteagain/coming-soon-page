@@ -1,0 +1,46 @@
+ * 
+{
+   margin: 0;
+   padding: 0;
+}
+    
+header
+{
+    background-image:linear-gradient(rgba(143, 116, 116, 0.5),rgba(20, 170, 145, 0.466)),url(image.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.logo
+{
+   position: relative, url(codeclanlogo.jpg)
+}
+.hero
+{
+   top: 30%;
+   left: 30%;
+   position: absolute;
+   transform: translate(-50%,-50%,);
+   color: #fff;
+   text-align: center;
+  
+}
+ h1{
+     font-size: 60px;
+     letter-spacing: 15px;
+ }
+ hr{
+     width:50%;
+     margin: 30px auto;
+     border: 1.5% solid #F5F3F1,
+ }
+ p{
+     font-size: 30px;
+     margin-bottom: 30px;
+ }
+ #launch
+ {
+     font-size: 40px;
+     word-spacing: 20px;
+ }
+
